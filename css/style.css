@@ -781,7 +781,13 @@ a:hover{
     }    
 
     .nav-item{
-        padding: 2vw 0;
+        padding: 1vw;
+    }
+
+    .nav-item:hover{
+        border-radius: 2vw !important;
+        border: solid 2px rgb(83, 83, 83) !important;
+        background-color: rgb(83, 83, 83) !important;
     }
 
     .navbar-nav{
@@ -1162,7 +1168,14 @@ a:hover{
 
     .nav-link{
         font-size: 4vw !important;
+        margin: 2vw 3vw !important;
+        outline: none;
     }
+
+    .dropdown-item{
+        padding: 5vw 4vw !important;
+    }
+    
 
     .div-construccion{
         margin: 30vw 0;
@@ -1317,6 +1330,33 @@ a:hover{
         padding: 0 0vw !important;
         margin: 0 0.5vw;
         color: black;
+    }
+
+    .nav-item:hover{
+        border-radius: 1vw !important;
+        border: solid 2px rgb(83, 83, 83) !important;
+        background-color: rgb(83, 83, 83) !important;
+    }
+
+    .nav-link{
+        font-size: 4vw !important;
+        margin: 1vw 0 !important;
+        outline: none;
+    }
+
+    .nav-link_sub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dropdown-item{
+        padding: 1vw 0vw !important;
+    }
+
+    .dropdown-menu{
+        border-radius: 0vw 0vw 1vw 1vw !important;
+        background-color: #fffaf5;
     }
 
     .container-nav {
