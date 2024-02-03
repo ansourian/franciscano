@@ -786,7 +786,7 @@ a:hover{
 
     .nav-item:hover{
         border-radius: 2vw !important;
-        border: solid 2px rgb(83, 83, 83) !important;
+        border: solid 0px rgb(83, 83, 83) !important;
         background-color: rgb(83, 83, 83) !important;
     }
 
