@@ -18,7 +18,7 @@ footer{
     border-color: #9f855c;
     border-top-style: solid;
     border-width: 0.5vw;
-    margin-top: 4vw;
+    margin-top: 10vw;
 }
 
 .logo{
@@ -144,6 +144,17 @@ footer{
     margin: 0vw 0 2vw;
     font-family: 'Pinyon Script', cursive;
     color: #9b8239 ;
+}
+
+.h2-notas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5vw;
+    margin: 2vw 0 2vw;
+    font-family: 'Pinyon Script', cursive;
+    color: #9b8239;
 }
 
 .h2-pages{
@@ -741,6 +752,62 @@ a:hover{
     margin-top: 0 !important;
 }
 
+.div-publicacion_instagram{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.instagram-media{
+    width: 50px !important;
+    margin: 0 3vw !important;
+}
+
+.recuadro-notas{
+    display: flex;
+    justify-content: center;
+}
+
+.div-notas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-notas{
+    width: 10vw;
+}
+
+.div-podcasts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30vw
+}
+
+.button-notas{
+    font-family: 'Gabarito', sans-serif !important;
+    background-color: rgb(255 250 245);
+    border-color: #1f371f;
+    border-style: solid;
+    border-width: 0.2vw;
+    color: #1f371f;
+    padding: 1vw 0;
+    text-decoration: none;
+    font-size: 1vw;
+    transition: 0.3s;
+    border-radius: 0;
+    margin: 2vw;
+}
+
+.button-notas:hover{
+    background-color: #1f371f;
+    color: #ffffff;
+    transition: 0.3s;
+    border-color: #1f371f;
+}
+
 
 @media screen and (min-width: 300px) and (max-width:767px){
 
@@ -814,8 +881,25 @@ a:hover{
     }
 
     .h2-index{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         font-size: 14vw;
-        margin: 4vw 0 4vw;
+        margin: 9vw 0;
+        font-family: 'Pinyon Script', cursive;
+        color: #9b8239 ;
+    }
+
+    .h2-notas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 14vw;
+        margin: 9vw 0;
+        font-family: 'Pinyon Script', cursive;
+        color: #9b8239 ;
     }
 
     .p-index{
@@ -1272,6 +1356,40 @@ a:hover{
     .img-acerca_de {
         width: 82vw;
         margin: 15vw 0;
+    }
+
+    .recuadro-notas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-notas{
+        width: 40vw;
+    }
+
+    .button-notas{
+        border-width: 0.8vw;
+        padding: 3vw 6vw;
+        text-decoration: none;
+        font-size: 4vw;
+        transition: 0.3s;
+        border-radius: 0;
+        margin: 5vw;
+    }
+
+    .div-publicacion_instagram {
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .instagram-media{
+        margin: 6vw 3vw !important;
+    }
+
+    .div-podcasts{
+        margin: 0 7vw;
     }
     
 }
